@@ -9,11 +9,11 @@ export default function Home() {
         
         {/* Floating Emojis Background */}
         <div className="fixed inset-0 overflow-hidden pointer-events-none opacity-30 z-0">
-          <div className="absolute top-20 left-10 text-6xl animate-float">👕</div>
-          <div className="absolute top-40 right-20 text-5xl animate-bounce-slow">🎨</div>
-          <div className="absolute bottom-40 left-20 text-6xl animate-float">💖</div>
+          <div className="absolute top-20 left-10 text-6xl animate-bounce">👕</div>
+          <div className="absolute top-40 right-20 text-5xl animate-bounce">🎨</div>
+          <div className="absolute bottom-40 left-20 text-6xl animate-bounce">💖</div>
           <div className="absolute top-60 right-40 text-5xl animate-bounce">🌈</div>
-          <div className="absolute bottom-20 right-10 text-6xl animate-float">✨</div>
+          <div className="absolute bottom-20 right-10 text-6xl animate-bounce">✨</div>
         </div>
 
         {/* Main Section */}

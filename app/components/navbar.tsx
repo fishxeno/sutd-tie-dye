@@ -34,12 +34,13 @@ export default function Navbar() {
             >
               Samples
             </Link>
-            <Link 
+            {/* Colourful gradient button code hehe */}
+            {/* <Link 
               href="/" 
               className="bg-gradient-to-r from-pink-500 to-purple-500 text-white px-6 py-2 rounded-full font-bold hover:scale-105 transition-transform shadow-lg"
             >
               Register Now!
-            </Link>
+            </Link> */}
           </div>
 
           {/* Mobile Menu Button */}
