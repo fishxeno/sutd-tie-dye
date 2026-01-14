@@ -4,11 +4,11 @@ export default function Home() {
       
       {/* Floating Emojis Background */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none opacity-30">
-        <div className="absolute top-20 left-10 text-6xl animate-float">👕</div>
-        <div className="absolute top-40 right-20 text-5xl animate-bounce-slow">🎨</div>
-        <div className="absolute bottom-40 left-20 text-6xl animate-float">💖</div>
+        <div className="absolute top-20 left-10 text-6xl animate-bounce">👕</div>
+        <div className="absolute top-40 right-20 text-5xl animate-bounce">🎨</div>
+        <div className="absolute bottom-40 left-20 text-6xl animate-bounce">💖</div>
         <div className="absolute top-60 right-40 text-5xl animate-bounce">🌈</div>
-        <div className="absolute bottom-20 right-10 text-6xl animate-float">✨</div>
+        <div className="absolute bottom-20 right-10 text-6xl animate-bounce">✨</div>
       </div>
 
       {/* Hero Section */}
@@ -185,9 +185,9 @@ export default function Home() {
       <footer className="bg-gray-900 text-white py-12 px-4">
         <div className="container mx-auto text-center">
           <h3 className="text-3xl font-bold mb-4">Tie-Dye Donation Drive</h3>
-          <p className="text-xl text-gray-300 mb-2">February 6, 2026 | 11am - 4pm | Campus Centre</p>
+          <p className="text-xl text-gray-300 mb-2">February 6, 2026 | 11am - 4pm | Campus Centre Lvl 1</p>
           <p className="text-lg text-gray-400 mb-6">
-            Supporting the Red Cross • Hosted by Student Union
+            Supporting the Red Cross • Hosted by EnROOT Group 6
           </p>
           <div className="flex justify-center gap-8 text-3xl">
             <span>🌈</span>
