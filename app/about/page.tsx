@@ -1,6 +1,14 @@
+'use client'
+
 import Navbar from '../components/navbar'
+import { useState } from 'react'
 
 export default function About() {
+    const [clickCount, setClickCount] = useState(0)
+
+  const handleClick = () => {
+    setClickCount(clickCount + 1)
+  }
   return (
     <>
       <Navbar />
@@ -119,9 +127,18 @@ export default function About() {
             <p className="text-2xl text-white mb-8 max-w-2xl mx-auto">
               Join us for a day of creativity, community, and compassion!
             </p>
-            <button className="bg-white text-purple-600 px-12 py-6 rounded-full text-2xl font-bold shadow-2xl hover:scale-110 transition-transform animate-bounce">
+            <button 
+            onClick={handleClick}
+            className="bg-white text-purple-600 px-12 py-6 rounded-full text-2xl font-bold shadow-2xl hover:scale-110 transition-transform animate-bounce">
               Count Me In! 🎉
             </button>
+
+            {/* Click Counter */}
+            <div className="mt-6">
+              <p className="text-white text-xl font-semibold bg-white/20 backdrop-blur-sm inline-block px-8 py-3 rounded-full">
+                You have clicked this button <span className="font-black text-yellow-300">{clickCount}</span> times!
+              </p>
+            </div>
           </div>
         </section>
 
