@@ -17,7 +17,7 @@ export default function About() {
             </p>
             
             <div className="grid md:grid-cols-3 gap-8 mb-20">
-              
+              {/* Might wanna attach a link to the guide on what clothes here tho */}
               <div className="bg-gradient-to-br from-pink-400 to-pink-600 rounded-3xl p-8 shadow-2xl text-white transform hover:rotate-2 transition-transform">
                 <div className="text-6xl mb-4">👔</div>
                 <h3 className="text-3xl font-bold mb-4">Donate Clothes</h3>
@@ -131,7 +131,7 @@ export default function About() {
             <h3 className="text-3xl font-bold mb-4">Tie-Dye Donation Drive</h3>
             <p className="text-xl text-gray-300 mb-2">February 6, 2026 | 11am - 4pm | Campus Centre</p>
             <p className="text-lg text-gray-400 mb-6">
-              Supporting the Red Cross • Hosted by Student Union
+              Supporting the Red Cross • Hosted by EnROOT roup 6
             </p>
             <div className="flex justify-center gap-8 text-3xl">
               <span>🌈</span>
@@ -140,7 +140,8 @@ export default function About() {
               <span>🎨</span>
               <span>👕</span>
             </div>
-            <p className="text-gray-500 mt-8">© 2026 Campus Events. All rights reserved.</p>
+            <p className="mt-6 text-gray-500">🎨 Let your creativity shine. Help those in need. February 6, 2026 🎨</p>
+            <p className="text-gray-500 mt-8">© 2026 EnROOT Group 6. All rights reserved.</p>
           </div>
         </footer>
 

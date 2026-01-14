@@ -16,12 +16,13 @@ export default function Home() {
           <div className="absolute bottom-20 right-10 text-6xl animate-float">✨</div>
         </div>
 
-        {/* Hero Section */}
+        {/* Main Section */}
         <section className="relative pt-20 pb-32 px-4 z-10">
           <div className="container mx-auto text-center">
-            <h1 className="text-6xl md:text-8xl font-black text-white mb-6 animate-glow">
-              TIE-DYE 🌈 DONATION DRIVE
+            <h1 className="text-6xl md:text-8xl font-black text-white mb-6 animate-bounce">
+              DYE-NATION 🌈
             </h1>
+            <h3 className="text-3xl md:text-4xl text-white mb-4 drop-shadow-lg animate-glow">DONATION DRIVE</h3>
             <p className="text-2xl md:text-3xl text-yellow-300 font-bold mb-8 drop-shadow-lg">
               Donate Clothes. Create Art. Change Lives. ✨
             </p>
@@ -45,21 +46,21 @@ export default function Home() {
                 <div className="text-5xl mb-4">📅</div>
                 <h3 className="text-2xl font-bold text-pink-600 mb-2">Date</h3>
                 <p className="text-xl text-gray-800 font-semibold">February 6, 2026</p>
-                <p className="text-gray-600 mt-1">Thursday</p>
+                <p className="text-gray-600 mt-1">Friday</p>
               </div>
 
               <div className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl hover:scale-105 transition-transform border-4 border-purple-400">
                 <div className="text-5xl mb-4">⏰</div>
                 <h3 className="text-2xl font-bold text-purple-600 mb-2">Time</h3>
                 <p className="text-xl text-gray-800 font-semibold">11:00 AM - 4:00 PM</p>
-                <p className="text-gray-600 mt-1">5 hours of fun!</p>
+                <p className="text-gray-600 mt-1">Fun!</p>
               </div>
 
               <div className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl hover:scale-105 transition-transform border-4 border-cyan-400">
                 <div className="text-5xl mb-4">📍</div>
                 <h3 className="text-2xl font-bold text-cyan-600 mb-2">Venue</h3>
                 <p className="text-xl text-gray-800 font-semibold">Campus Centre</p>
-                <p className="text-gray-600 mt-1">Main Hall</p>
+                <p className="text-gray-600 mt-1">Level 1</p>
               </div>
 
               <div className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl hover:scale-105 transition-transform border-4 border-yellow-400">
@@ -93,11 +94,12 @@ export default function Home() {
         {/* Footer */}
         <footer className="bg-gray-900 text-white py-12 px-4 relative z-10">
           <div className="container mx-auto text-center">
-            <h3 className="text-3xl font-bold mb-4">Tie-Dye Donation Drive</h3>
+            <h3 className="text-3xl font-bold mb-4">DYE-NATION</h3>
             <p className="text-xl text-gray-300 mb-2">February 6, 2026 | 11am - 4pm | Campus Centre</p>
             <p className="text-lg text-gray-400 mb-6">
-              Supporting the Red Cross • Hosted by Student Union
+              Supporting the Red Cross • Hosted by EnROOT Group 6
             </p>
+            {/* Can attach links here*/}
             <div className="flex justify-center gap-8 text-3xl">
               <span>🌈</span>
               <span>❤️</span>
@@ -105,7 +107,8 @@ export default function Home() {
               <span>🎨</span>
               <span>👕</span>
             </div>
-            <p className="text-gray-500 mt-8">© 2026 Campus Events. All rights reserved.</p>
+            <p className="mt-6 text-gray-500">🎨 Let your creativity shine. Help those in need. February 6, 2026 🎨</p>
+            <p className="text-gray-500 mt-8">© 2026 EnROOT Group 6. All rights reserved.</p>
           </div>
         </footer>
 
