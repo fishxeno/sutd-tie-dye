@@ -40,28 +40,28 @@ export default function Home() {
               <div className="text-5xl mb-4">📅</div>
               <h3 className="text-2xl font-bold text-pink-600 mb-2">Date</h3>
               <p className="text-xl text-gray-800 font-semibold">February 6, 2026</p>
-              <p className="text-gray-600 mt-1">Thursday</p>
+              <p className="text-gray-600 mt-1">Friday</p>
             </div>
 
             <div className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl hover:scale-105 transition-transform border-4 border-purple-400">
               <div className="text-5xl mb-4">⏰</div>
               <h3 className="text-2xl font-bold text-purple-600 mb-2">Time</h3>
               <p className="text-xl text-gray-800 font-semibold">11:00 AM - 4:00 PM</p>
-              <p className="text-gray-600 mt-1">5 hours of fun!</p>
+              <p className="text-gray-600 mt-1">Fun!</p>
             </div>
 
             <div className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl hover:scale-105 transition-transform border-4 border-cyan-400">
               <div className="text-5xl mb-4">📍</div>
               <h3 className="text-2xl font-bold text-cyan-600 mb-2">Venue</h3>
               <p className="text-xl text-gray-800 font-semibold">Campus Centre</p>
-              <p className="text-gray-600 mt-1">Main Hall</p>
+              <p className="text-gray-600 mt-1">Level 1</p>
             </div>
 
             <div className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl hover:scale-105 transition-transform border-4 border-yellow-400">
               <div className="text-5xl mb-4">❤️</div>
               <h3 className="text-2xl font-bold text-red-600 mb-2">Beneficiary</h3>
               <p className="text-xl text-gray-800 font-semibold">Red Cross</p>
-              <p className="text-gray-600 mt-1">Supporting communities</p>
+              <p className="text-gray-600 mt-1">Placeholder text</p>
             </div>
 
           </div>
@@ -196,7 +196,7 @@ export default function Home() {
             <span>🎨</span>
             <span>👕</span>
           </div>
-          <p className="text-gray-500 mt-8">© 2026 Campus Events. All rights reserved.</p>
+          <p className="text-gray-500 mt-8">© 2026 EnROOT Group 6. All rights reserved.</p>
         </div>
       </footer>
 
