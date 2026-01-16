@@ -37,7 +37,7 @@ export default function Home() {
                 <div className="text-5xl mb-4">📅</div>
                 <h3 className="text-2xl font-bold text-pink-600 mb-2">Date</h3>
                 <p className="text-xl text-gray-800 font-semibold">February 6, 2026</p>
-                <p className="text-gray-600 mt-1">Thursday</p>
+                <p className="text-gray-600 mt-1">Friday</p>
               </div>
 
               <div className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl hover:scale-105 transition-transform border-4 border-purple-400">
@@ -74,10 +74,11 @@ export default function Home() {
             <p className="text-2xl text-white mb-8 max-w-2xl mx-auto">
               Learn about what to expect and how the event works!
             </p>
-            <Link href="/about">
-              <button className="bg-white text-purple-600 px-12 py-6 rounded-full text-2xl font-bold shadow-2xl hover:scale-110 transition-transform">
-                Learn More →
-              </button>
+            <Link
+              href="/about"
+              className="bg-white text-purple-600 px-12 py-6 rounded-full text-2xl font-bold shadow-2xl hover:scale-110 transition-transform inline-block"
+            >
+              Learn More →
             </Link>
           </div>
         </section>
