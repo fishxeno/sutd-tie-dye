@@ -10,7 +10,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center gap-2 text-2xl font-black">
             <span className="text-pink-500">🌈</span>
             <span className="bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 text-transparent bg-clip-text">
-              Tie-Dye Drive
+              Dye-Nation
             </span>
           </Link>
 
