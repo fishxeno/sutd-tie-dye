@@ -1,21 +1,23 @@
 'use client'
 
-import Navbar from '../components/navbar'
 import { useState } from 'react'
+import Navbar from '../components/navbar'
 
 export default function About() {
-    const [clickCount, setClickCount] = useState(0)
+  const [clickCount, setClickCount] = useState(1354)
+
 
   const handleClick = () => {
     setClickCount(clickCount + 1)
   }
+
   return (
     <>
       <Navbar />
-      <div className="min-h-screen bg-gradient-to-br from-pink-500 via-purple-500 to-cyan-500 bg-gradient-animate pt-16">
+      <div className="pt-16">
         
         {/* What to Expect */}
-        <section className="py-20 px-4 relative z-10">
+        <section className="py-20 px-4">
           <div className="container mx-auto">
             <h2 className="text-5xl md:text-6xl font-black text-center text-white mb-4 drop-shadow-lg">
               What to Expect 🎊
@@ -55,7 +57,7 @@ export default function About() {
         </section>
 
         {/* How It Works */}
-        <section className="py-16 px-4 bg-white/10 backdrop-blur-md relative z-10">
+        <section className="py-16 px-4">
           <div className="container mx-auto">
             <h2 className="text-5xl md:text-6xl font-black text-center text-white mb-4 drop-shadow-lg">
               How It Works 🔄
@@ -119,7 +121,7 @@ export default function About() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-20 px-4 bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-500 relative z-10">
+        <section className="py-20 px-4">
           <div className="container mx-auto text-center">
             <h2 className="text-5xl md:text-6xl font-black text-white mb-6">
               Ready to Make a Difference? 🚀
@@ -143,7 +145,7 @@ export default function About() {
         </section>
 
         {/* Footer */}
-        <footer className="bg-gray-900 text-white py-12 px-4 relative z-10">
+        <footer className="bg-gray-900 text-white py-12 px-4">
           <div className="container mx-auto text-center">
             <h3 className="text-3xl font-bold mb-4">Tie-Dye Donation Drive</h3>
             <p className="text-xl text-gray-300 mb-2">February 6, 2026 | 11am - 4pm | Campus Centre</p>
