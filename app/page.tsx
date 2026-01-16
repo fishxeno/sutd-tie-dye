@@ -12,7 +12,7 @@ export default function Home() {
         <section className="relative pt-20 pb-32 px-4 z-10">
           <div className="container mx-auto text-center">
             <h1 className="text-6xl md:text-8xl font-black text-white mb-6 animate-glow">
-              TIE-DYE 🌈 DONATION DRIVE
+              DYE-NATION 🌈
             </h1>
             <p className="text-2xl md:text-3xl text-yellow-300 font-bold mb-8 drop-shadow-lg">
               Donate Clothes. Create Art. Change Lives. ✨
@@ -44,7 +44,7 @@ export default function Home() {
                 <div className="text-5xl mb-4">⏰</div>
                 <h3 className="text-2xl font-bold text-purple-600 mb-2">Time</h3>
                 <p className="text-xl text-gray-800 font-semibold">11:00 AM - 4:00 PM</p>
-                <p className="text-gray-600 mt-1">5 hours of fun!</p>
+                <p className="text-gray-600 mt-1">Fun!</p>
               </div>
 
               <div className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl hover:scale-105 transition-transform border-4 border-cyan-400">
