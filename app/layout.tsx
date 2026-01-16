@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Tie-Dye Donation Drive | Campus Event',
-  description: 'Join us for a vibrant clothes donation drive with free tie-dyeing! February 6, 2026 at Campus Centre.',
+  description: 'Join us for a vibrant clothes donation drive with free tie-dyeing! February 6, 2026 at Campus Centre Level 1.',
 }
 
 export default function RootLayout({
