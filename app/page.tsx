@@ -1,3 +1,4 @@
+'use client'
 import Link from 'next/link'
 import Navbar from './components/navbar'
 import Footer from './components/footer'
@@ -21,9 +22,35 @@ export default function Home() {
               <button className="bg-white text-purple-600 px-8 py-4 rounded-full text-xl font-bold shadow-2xl hover:scale-110 transition-transform hover:shadow-pink-500/50">
                 🎉 I'm Coming!
               </button>
-              <button className="bg-yellow-400 text-purple-900 px-8 py-4 rounded-full text-xl font-bold shadow-2xl hover:scale-110 transition-transform hover:shadow-cyan-500/50">
-                📅 Add to Calendar
-              </button>
+              <button
+  onClick={() => {
+    const ua = navigator.userAgent
+
+    // iOS (Apple Calendar)
+    if (/iPhone|iPad|iPod/.test(ua)) {
+      window.location.href =
+        'data:text/calendar;charset=utf-8,BEGIN:VCALENDAR\nVERSION:2.0\nBEGIN:VEVENT\nDTSTART:20260206T030000Z\nDTEND:20260206T080000Z\nSUMMARY:DYE-NATION 🌈\nLOCATION:Campus Centre Level 1, Singapore\nDESCRIPTION:Donate Clothes. Create Art. Change Lives.\nEND:VEVENT\nEND:VCALENDAR'
+      return
+    }
+
+    // Android (Google Calendar App)
+    if (/Android/.test(ua)) {
+      window.location.href =
+        'https://www.google.com/calendar/event?action=TEMPLATE&text=DYE-NATION%20🌈&dates=20260206T030000Z/20260206T080000Z&location=Campus%20Centre%20Level%201&details=Donate%20Clothes.%20Create%20Art.%20Change%20Lives.'
+      return
+    }
+
+    // Desktop fallback (Google Calendar Web)
+    window.open(
+      'https://calendar.google.com/calendar/render?action=TEMPLATE&text=DYE-NATION%20🌈&dates=20260206T030000Z/20260206T080000Z&details=Donate%20Clothes.%20Create%20Art.%20Change%20Lives.&location=Campus%20Centre%20Level%201&ctz=Asia/Singapore',
+      '_blank'
+    )
+  }}
+  className="bg-yellow-400 text-purple-900 px-8 py-4 rounded-full text-xl font-bold shadow-2xl hover:scale-110 transition-transform hover:shadow-cyan-500/50"
+>
+  📅 Add to Calendar
+</button>
+
             </div>
           </div>
         </section>
