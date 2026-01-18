@@ -26,10 +26,9 @@ export default function Home() {
   onClick={() => {
     const ua = navigator.userAgent
 
-    // iOS (Apple Calendar)
+    // iOS Safari / Apple Calendar
     if (/iPhone|iPad|iPod/.test(ua)) {
-      window.location.href =
-        'data:text/calendar;charset=utf-8,BEGIN:VCALENDAR\nVERSION:2.0\nBEGIN:VEVENT\nDTSTART:20260206T030000Z\nDTEND:20260206T080000Z\nSUMMARY:DYE-NATION 🌈\nLOCATION:Campus Centre Level 1, Singapore\nDESCRIPTION:Donate Clothes. Create Art. Change Lives.\nEND:VEVENT\nEND:VCALENDAR'
+      window.location.href = '/dye-nation.ics'
       return
     }
 
@@ -40,7 +39,7 @@ export default function Home() {
       return
     }
 
-    // Desktop fallback (Google Calendar Web)
+    // Desktop fallback
     window.open(
       'https://calendar.google.com/calendar/render?action=TEMPLATE&text=DYE-NATION%20🌈&dates=20260206T030000Z/20260206T080000Z&details=Donate%20Clothes.%20Create%20Art.%20Change%20Lives.&location=Campus%20Centre%20Level%201&ctz=Asia/Singapore',
       '_blank'
@@ -50,6 +49,7 @@ export default function Home() {
 >
   📅 Add to Calendar
 </button>
+
 
             </div>
           </div>
