@@ -2,19 +2,19 @@ import Link from 'next/link'
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md shadow-lg">
-      <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
+    <nav className="fixed top-6 left-1/2 transform -translate-x-1/2 z-50 w-auto">
+      <div className="bg-white/95 backdrop-blur-md shadow-2xl rounded-full px-8 py-4">
+        <div className="flex items-center gap-8">
           
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 text-2xl font-black">
+          {/* <Link href="/" className="flex items-center gap-2 text-2xl font-black">
             <span className="text-pink-500">🌈</span>
             <span className="bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 text-transparent bg-clip-text">
               Dye-Nation
             </span>
-          </Link>
+          </Link> */}
 
-          {/* Navigation Links */}
+          {/* Navigation Links center on screen */}
           <div className="hidden md:flex items-center gap-8">
             <Link 
               href="/" 
