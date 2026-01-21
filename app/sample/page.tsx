@@ -7,8 +7,8 @@ import PhotoGallery from './PhotoGallery';
 
 // Displays tie dye samples / template
 
-export const dynamic = 'force-dynamic';
 export const runtime = 'nodejs'
+export const dynamic = 'force-dynamic';
 
 export default async function Samples() {
 
