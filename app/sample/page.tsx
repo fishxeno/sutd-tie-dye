@@ -6,6 +6,9 @@ import 'photoswipe/dist/photoswipe.css'
 import PhotoGallery from './PhotoGallery';
 
 // Displays tie dye samples / template
+
+export const dynamic = 'force-dynamic';
+
 export default async function Samples() {
 
   const sampleList: { id: number; imageUrl: string }[] = [];
