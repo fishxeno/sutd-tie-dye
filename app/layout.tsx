@@ -5,7 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Tie-Dye Donation Drive | Campus Event',
+  title: 'Dye-Nation | Tie-Dye Donation Drive',
   description: 'Join us for a vibrant clothes donation drive with free tie-dyeing! February 6, 2026 at Campus Centre Level 1.',
 }
 
