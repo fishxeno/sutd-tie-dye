@@ -1,24 +1,19 @@
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
-import path from 'path/win32';
-import fs from 'fs/promises';
 import 'photoswipe/dist/photoswipe.css'
 import PhotoGallery from './PhotoGallery';
 
 // Displays tie dye samples / template
 
-export const runtime = 'nodejs'
-export const dynamic = 'force-dynamic';
-
 export default async function Samples() {
 
-  const sampleList: { id: number; imageUrl: string }[] = [];
-  const imageDirectory = path.join(process.cwd(), '/public/samples');
-  const imageFilenames = await fs.readdir(imageDirectory)
-  console.log(imageFilenames);
-  imageFilenames.forEach((filename, index) => {
-    sampleList.push({ id: index, imageUrl: `/samples/${filename}` });
-  });
+  const sampleList: { id: number; imageUrl: string }[] = [
+    { id: 1, imageUrl: '/samples/test.jpeg' },
+    { id: 2, imageUrl: '/samples/test2.jpeg' },
+    { id: 3, imageUrl: '/samples/test3.jpeg' },
+    { id: 4, imageUrl: '/samples/test4.jpeg' },
+    { id: 5, imageUrl: '/samples/test5.jpeg' }
+  ];
 
   return (
     <>
