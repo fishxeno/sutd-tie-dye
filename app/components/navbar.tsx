@@ -53,7 +53,7 @@ export default function Navbar() {
           </button> */}
           <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden bg-white/95 backdrop-blur-md rounded-full p-2 flex items-center justify-center text-3xl"
+          className="md:hidden rounded-full flex items-center justify-center text-3xl"
           >
             {isOpen ? '✕' : '☰'}
           </button>
