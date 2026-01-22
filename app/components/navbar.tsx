@@ -47,13 +47,19 @@ export default function Navbar() {
           </div>
 
           {/* Mobile Menu Button */}
-          <button onClick={() => setIsOpen(!isOpen)} 
+          {/* <button onClick={() => setIsOpen(!isOpen)} 
             className="md:hidden text-gray-700 text-2xl">
             ☰
+          </button> */}
+          <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="md:hidden bg-white/95 backdrop-blur-md rounded-full p-2 flex items-center justify-center text-3xl"
+          >
+            {isOpen ? '✕' : '☰'}
           </button>
           {isOpen && (
-          <div className="absolute top-16 left-4 right-4 bg-white/95 backdrop-blur-md shadow-2xl rounded-3xl p-6">
-            <div className="flex flex-col gap-4">
+          <div className="absolute top-16 left-2 right-2 bg-white/95 backdrop-blur-md shadow-2xl rounded-3xl p-6">
+            <div className="flex flex-col gap-4 items-center">
               <Link 
                 href="/" 
                 onClick={() => setIsOpen(false)}
