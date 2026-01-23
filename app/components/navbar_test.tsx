@@ -47,19 +47,19 @@ export default function Navbar() {
           </div>
 
           {/* Mobile Menu Button */}
-          <nav className="sm:hidden fixed top-4 left-1/2 transform -translate-x-1/2 z-50">
-          
+          {/* <button onClick={() => setIsOpen(!isOpen)} 
+            className="md:hidden text-gray-700 text-2xl">
+            ☰
+          </button> */}
           <button
           onClick={() => setIsOpen(!isOpen)}
-          className="bg-white/95 backdrop-blur-md shadow-2xl rounded-full p-4 w-14 h-14 flex items-center justify-center text-3xl"
+          className="md:hidden rounded-full flex items-center justify-center text-3xl"
           >
             {isOpen ? '✕' : '☰'}
           </button>
-          
-          {/* Dropdown Menu */}
           {isOpen && (
-          <div className="absolute top-16 left-1/2 transform -translate-x-1/2 bg-white/95 backdrop-blur-md shadow-2xl rounded-3xl overflow-hidden min-w-[160px]">
-            <div className="flex flex-col py-2">
+          <div className="absolute top-16 left-2 right-2 bg-white/95 backdrop-blur-md shadow-2xl rounded-3xl p-6">
+            <div className="flex flex-col gap-4 items-center">
               <Link 
                 href="/" 
                 onClick={() => setIsOpen(false)}
@@ -83,18 +83,10 @@ export default function Navbar() {
               >
                 Samples
               </Link>
-            </div>
-          </div>
-          )}
-        </nav>
-        {/* Close Menu */}
-        {isOpen && (
-        <div 
-          className="sm:hidden fixed inset-0 bg-black/20 backdrop-blur-sm z-40"
-          onClick={() => setIsOpen(false)}
-        />
-      )}
         </div>
+      </div>
+      )}
+      </div>
       </div>
     </nav>
   )
