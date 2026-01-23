@@ -19,38 +19,33 @@ export default function Home() {
               Donate Clothes. Create Art. Change Lives. ✨
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <button className="bg-white text-purple-600 px-8 py-4 rounded-full text-xl font-bold shadow-2xl hover:scale-110 transition-transform hover:shadow-pink-500/50">
-                🎉 I'm Coming!
-              </button>
               <button
-  onClick={() => {
-    const ua = navigator.userAgent
+                onClick={() => {
+                    const ua = navigator.userAgent
 
-    // iOS Safari / Apple Calendar
-    if (/iPhone|iPad|iPod/.test(ua)) {
-      window.location.href = '/dye-nation.ics'
-      return
-    }
+                    // iOS Safari / Apple Calendar
+                    if (/iPhone|iPad|iPod/.test(ua)) {
+                      window.location.href = '/dye-nation.ics'
+                      return
+                    }
 
-    // Android (Google Calendar App)
-    if (/Android/.test(ua)) {
-      window.location.href =
-        'https://www.google.com/calendar/event?action=TEMPLATE&text=DYE-NATION%20🌈&dates=20260206T030000Z/20260206T080000Z&location=Campus%20Centre%20Level%201&details=Donate%20Clothes.%20Create%20Art.%20Change%20Lives.'
-      return
-    }
+                    // Android (Google Calendar App)
+                    if (/Android/.test(ua)) {
+                      window.location.href =
+                        'https://www.google.com/calendar/event?action=TEMPLATE&text=DYE-NATION%20🌈&dates=20260206T030000Z/20260206T080000Z&location=Campus%20Centre%20Level%201&details=Donate%20Clothes.%20Create%20Art.%20Change%20Lives.'
+                      return
+                    }
 
-    // Desktop fallback
-    window.open(
-      'https://calendar.google.com/calendar/render?action=TEMPLATE&text=DYE-NATION%20🌈&dates=20260206T030000Z/20260206T080000Z&details=Donate%20Clothes.%20Create%20Art.%20Change%20Lives.&location=Campus%20Centre%20Level%201&ctz=Asia/Singapore',
-      '_blank'
-    )
-  }}
-  className="bg-yellow-400 text-purple-900 px-8 py-4 rounded-full text-xl font-bold shadow-2xl hover:scale-110 transition-transform hover:shadow-cyan-500/50"
->
-  📅 Add to Calendar
-</button>
-
-
+                    // Desktop fallback
+                    window.open(
+                      'https://calendar.google.com/calendar/render?action=TEMPLATE&text=DYE-NATION%20🌈&dates=20260206T030000Z/20260206T080000Z&details=Donate%20Clothes.%20Create%20Art.%20Change%20Lives.&location=Campus%20Centre%20Level%201&ctz=Asia/Singapore',
+                      '_blank'
+                    )
+                  }}
+                  className="bg-yellow-400 text-purple-900 px-8 py-4 rounded-full text-xl font-bold shadow-2xl hover:scale-110 transition-transform hover:shadow-cyan-500/50"
+                >
+                  📅 Add to Calendar
+                </button>
             </div>
           </div>
         </section>
@@ -84,7 +79,7 @@ export default function Home() {
               <div className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl hover:scale-105 transition-transform border-4 border-yellow-400">
                 <div className="text-5xl mb-4">❤️</div>
                 <h3 className="text-2xl font-bold text-red-600 mb-2">Beneficiary</h3>
-                <p className="text-xl text-gray-800 font-semibold">Red Cross</p>
+                <p className="text-xl text-gray-800 font-semibold">The Salvation Army</p>
                 <p className="text-gray-600 mt-1">Supporting communities</p>
               </div>
 
