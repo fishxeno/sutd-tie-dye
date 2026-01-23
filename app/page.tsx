@@ -79,7 +79,7 @@ export default function Home() {
               <div className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl hover:scale-105 transition-transform border-4 border-yellow-400">
                 <div className="text-5xl mb-4">❤️</div>
                 <h3 className="text-2xl font-bold text-red-600 mb-2">Beneficiary</h3>
-                <p className="text-xl text-gray-800 font-semibold"> The Salvation Army</p>
+                <p className="text-xl text-gray-800 font-semibold">The Salvation Army</p>
                 <p className="text-gray-600 mt-1">Supporting communities</p>
               </div>
 
