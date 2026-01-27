@@ -8,11 +8,7 @@ import PhotoGallery from './PhotoGallery';
 export default async function Samples() {
 
   const sampleList: { id: number; imageUrl: string }[] = [
-    { id: 1, imageUrl: '/samples/test.jpeg' },
-    { id: 2, imageUrl: '/samples/test2.jpeg' },
-    { id: 3, imageUrl: '/samples/test3.jpeg' },
-    { id: 4, imageUrl: '/samples/test4.jpeg' },
-    { id: 5, imageUrl: '/samples/test5.jpeg' }
+    // { id: 1, imageUrl: '/samples/test.jpeg' },
   ];
 
   return (
@@ -24,6 +20,18 @@ export default async function Samples() {
             <h2 className="text-5xl md:text-6xl font-black text-center text-white mb-4 drop-shadow-lg">
               Samples
             </h2>
+            <div>
+              <p className="text-center text-white mb-4 drop-shadow-lg px-10 font-black drop-shadow-lg mt-10 sm:text-md md:text-lg lg:text-xl">
+                On this page you will see a collection of tie dye samples that showcase various techniques and color combinations done by the students.
+                 Use these samples as inspiration for your own custom designs!
+              </p>
+            </div>
+            <div>
+              <p className="text-center text-white drop-shadow-lg px-10 drop-shadow-lg sm:text-xs md:text-sm lg:text-md">
+                If you don&apos;t see any samples here, it means that no students have submitted their designs yet.
+                Encourage your classmates to participate and share their creativity!
+              </p>
+            </div>
             <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
               <PhotoGallery imagesrc={sampleList.map(item => item.imageUrl)} />
             </div>
