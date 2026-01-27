@@ -5,7 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Tie-Dye Donation Drive | Campus Event',
+  title: 'Dye-Nation | Tie-Dye Donation Drive',
   description: 'Join us for a vibrant clothes donation drive with free tie-dyeing! February 6, 2026 at Campus Centre Level 1.',
 }
 
@@ -18,7 +18,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         {/* Animated Background */}
-        {/* <div className="min-h-screen bg-gradient-to-br from-pink-500 via-purple-500 to-cyan-500 bg-gradient-animate"> */}
         <div className="min-h-screen bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-500 bg-gradient-blur-md">
           
           {/* Floating Emojis Background */}

@@ -15,7 +15,10 @@ export default function About() {
   return (
     <>
       <Navbar />
-      <div className="pt-16">
+      <div
+  className="pt-16 min-h-screen bg-cover bg-center"
+  style={{ backgroundImage: "url('/tie-dye.avif')" }}
+>
         
         {/* What to Expect */}
         <section className="py-20 px-4">
@@ -49,7 +52,7 @@ export default function About() {
                 <div className="text-6xl mb-4">🌟</div>
                 <h3 className="text-3xl font-bold mb-4">Make Impact</h3>
                 <p className="text-lg leading-relaxed">
-                  Your donations go directly to the Red Cross, helping communities and individuals rebuild their lives.
+                  Your donations go directly to the Salvation Army, helping communities and individuals rebuild their lives.
                 </p>
               </div>
 
@@ -112,7 +115,7 @@ export default function About() {
                 <div>
                   <h3 className="text-2xl font-bold text-gray-800 mb-2">Make a Difference</h3>
                   <p className="text-gray-700 text-lg">
-                    Your donated clothes will be professionally cleaned and sent to the Red Cross to help those in need. Feel good, look good, do good!
+                    Your donated clothes will be professionally cleaned and sent to the Salvation Army to help those in need. Feel good, look good, do good!
                   </p>
                 </div>
               </div>
