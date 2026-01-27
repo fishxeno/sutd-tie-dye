@@ -18,7 +18,11 @@ export default async function Samples() {
   return (
     <>
       <Navbar />
-      <div className="pt-16">
+      <div
+  className="pt-16 min-h-screen bg-cover bg-center"
+  style={{ backgroundImage: "url('/tie-dye.avif')" }}
+>
+
         <section className="py-20 px-4">
           <div className="container mx-auto">
             <h2 className="text-5xl md:text-6xl font-black text-center text-white mb-4 drop-shadow-lg">

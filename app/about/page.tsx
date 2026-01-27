@@ -15,7 +15,10 @@ export default function About() {
   return (
     <>
       <Navbar />
-      <div className="pt-16">
+      <div
+  className="pt-16 min-h-screen bg-cover bg-center"
+  style={{ backgroundImage: "url('/tie-dye.avif')" }}
+>
         
         {/* What to Expect */}
         <section className="py-20 px-4">
