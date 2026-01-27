@@ -42,7 +42,8 @@ export default function Home() {
                       '_blank'
                     )
                   }}
-                  className="bg-yellow-400 text-purple-900 px-8 py-4 rounded-full text-xl font-bold shadow-2xl hover:scale-110 transition-transform hover:shadow-cyan-500/50"
+                  className="bg-yellow-400 text-purple-900 px-8 py-4 rounded-full text-xl font-bold shadow-2xl hover:scale-110 transition-transform hover:shadow-cyan-500/50
+                  cursor-pointer"
                 >
                   📅 Add to Calendar
                 </button>
