@@ -7,7 +7,10 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="pt-16">
+      <div
+  className="pt-16 min-h-screen bg-cover bg-center"
+  style={{ backgroundImage: "url('/tie-dye.avif')" }}
+>
         
         {/* Hero Section */}
         <section className="relative pt-20 pb-32 px-4 z-10">
