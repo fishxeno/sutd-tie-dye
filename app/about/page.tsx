@@ -44,7 +44,7 @@ export default function About() {
                 <div className="text-6xl mb-4">🎨</div>
                 <h3 className="text-3xl font-bold mb-4">Free Tie-Dyeing</h3>
                 <p className="text-lg leading-relaxed">
-                  Create your own unique tie-dye masterpiece! All materials provided. Donate extra clothes = free tie-dye session!
+                  Create your own unique tie-dye masterpiece! All materials provided. Donate 1-2 clothes for patches/embroidery, and 3+ clothes = free tie-dye session! 
                 </p>
               </div>
 
@@ -80,6 +80,9 @@ export default function About() {
                   <h3 className="text-2xl font-bold text-gray-800 mb-2">Bring Your Clothes</h3>
                   <p className="text-gray-700 text-lg">
                     Bring any extra clothes you want to donate - t-shirts, jeans, jackets, anything gently used! Clean and in good condition.
+                  </p>
+                  <p className="text-gray-500 text-sm mt-4">
+                    Donate 1-2 clothes to add patches or embroidery, or 3+ clothes to patch, stitch, and tie-dye your own pieces!
                   </p>
                 </div>
               </div>
