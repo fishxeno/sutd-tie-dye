@@ -11,6 +11,7 @@ export default async function Samples() {
     { id: 1, imageUrl: '/samples/IMG_6415.jpeg' },
     { id: 2, imageUrl: '/samples/IMG_6417.jpeg' },
     { id: 3, imageUrl: '/samples/IMG_6418.jpeg' },
+    { id: 4, imageUrl: '/samples/IMG_6419.jpg' },
   ];
 
   return (
