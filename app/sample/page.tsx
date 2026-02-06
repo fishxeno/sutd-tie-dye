@@ -32,12 +32,6 @@ export default async function Samples() {
                  Use these samples as inspiration for your own custom designs!
               </p>
             </div>
-            <div>
-              <p className="text-center text-white drop-shadow-lg px-10 drop-shadow-lg sm:text-xs md:text-sm lg:text-md">
-                If you don&apos;t see any samples here, it means that no students have submitted their designs yet.
-                Encourage your classmates to participate and share their creativity!
-              </p>
-            </div>
             <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
               <PhotoGallery imagesrc={sampleList.map(item => item.imageUrl)} />
             </div>
