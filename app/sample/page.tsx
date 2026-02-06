@@ -8,7 +8,9 @@ import PhotoGallery from './PhotoGallery';
 export default async function Samples() {
 
   const sampleList: { id: number; imageUrl: string }[] = [
-    // { id: 1, imageUrl: '/samples/test.jpeg' },
+    { id: 1, imageUrl: '/samples/IMG_6415.jpeg' },
+    { id: 2, imageUrl: '/samples/IMG_6417.jpeg' },
+    { id: 3, imageUrl: '/samples/IMG_6418.jpeg' },
   ];
 
   return (
